@@ -4,7 +4,7 @@ var async = require('async');
 //gpio.on('change', function(channel, value) {
 //    console.log('Channel ' + channel + ' value is now ' + value);
 //});
-
+// 
 exports.init = function(callback){
     gpio.destroy();
     console.log('Setting up GPIO mode to ' + gpio.MODE_RPI);
