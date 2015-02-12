@@ -1,10 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 
-var login = require('./routes/login');
-var release = require('./routes/release');
-// var huvr = require('./routes/huvr');
-//var nodergenie = require('./nodergenie');
+var async = require('async');
 
 var app = express();
 var port = process.env.PORT || 3000;
