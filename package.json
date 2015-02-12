@@ -1,5 +1,5 @@
 {
-  "name": "Nodergenie REST",
+  "name": "nodergenie-svc",
   "description": "Simple rest service for Energenie node API",
   "version": "0.0.1",
   "scripts": {
@@ -7,8 +7,9 @@
   },
   "main": "server.js",
   "dependencies": {
-    "express": "~4.8.5",
     "body-parser": "~1.5.0",
-    "method-override": "~2.0.2"
+    "express": "~4.8.5",
+    "method-override": "~2.0.2",
+    "mongodb": "^1.4.30"
   }
 }
